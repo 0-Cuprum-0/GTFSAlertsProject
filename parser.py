@@ -24,26 +24,42 @@ def checkFields(response,feed):
                 #print("Feed fetched and has all the fields nessesary")
 
 
-def constructAlertsList(feed, alerts, alert_keys):
-    i=0
+def constructAlertsList(feed, alerts, alert_keys, alerts_keys):
+    alerts["timestamp"] = feed.header.timestamp
+    alerts["alert_list"] = []
+    i = 0
     for entity in feed.entity:
         alert_ind = {key: None for key in alert_keys}
         alert_ind["id"] = i
         alert_ind["affected"] = []
         for informed_entity in entity.alert.informed_entity:
-            alert_ind["affected"].append(informed_entity)
+            alert_ind["affected"].append(str(informed_entity.route_id))
         alert_ind["title"] = entity.alert.header_text.translation[0].text
-        alert_ind["text"] = entity.alert.description_text.translation[0].text 
+
+        alert_ind["url"] = entity.alert.url.translation[0].text
+        #alert_ind["text"] = entity.alert.description_text.translation[0].text 
         #print(alert_ind["title"])
         #print(alert_ind["id"] )
         #print(alert_ind["affected"][0]) prints only the first route id for each
-        i+=1
+        alerts["alert_list"].append(alert_ind)
+        i=1+i
+
+         
+    print(alerts)
+    with open("./json/data.json", "w") as f:
+        json.dump(alerts, f, indent = "     ", ensure_ascii=False)
+
+
+ 
+
+
 
 
 response=fetchFeed()
 feed = gtfs_realtime_pb2.FeedMessage()
-alerts =[]
-alert_keys =["id", "affected", "title", "text"] 
+alerts_keys = ["timestamp", "alert_list"]
+alerts ={key: None for key in alerts_keys}
+alert_keys =[ "id", "affected", "title", "url"] 
 
 if response != False:
     print("Connected to url")
@@ -62,10 +78,10 @@ if response != False:
     #     print(informed_entity)
     #
     print(len(feed.entity),"entities found")
-    constructAlertsList(feed, alerts, alert_keys)
+    constructAlertsList(feed, alerts, alert_keys, alerts_keys)
 
 else:
-        print("There is error while fetching.")
+        print("There is an error while fetching.")
 
 
 
