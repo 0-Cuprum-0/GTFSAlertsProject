@@ -15,17 +15,23 @@
     in pkgs.mkShell {
       packages = with pkgs; [
       cowsay
+      mpremote
+      picocom
+      lsof
           (python314.withPackages (ps: with ps; [
 	      gtfs-realtime-bindings
 	      requests
+	      micropython
+	      esptool
+
 	
-    ]))
+    ]))  
 
 
       ];
 
       shellHook = ''
-      echo "Welcome  to dev enviroment with python and gtfs"
+      echo "Welcome  to dev enviroment for python + micropython "
       '';
     };
   };
