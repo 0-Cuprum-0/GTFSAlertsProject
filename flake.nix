@@ -18,7 +18,7 @@
       mpremote
       picocom
       lsof
-          (python314.withPackages (ps: with ps; [
+          (python313.withPackages (ps: with ps; [
 	      gtfs-realtime-bindings
 	      requests
 	      micropython

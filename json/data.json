@@ -1,8 +1,32 @@
 {
-     "timestamp": 1784476625,
+     "timestamp": 1784660682,
      "alert_list": [
           {
                "id": 0,
+               "affected": [
+                    "L31"
+               ],
+               "title": "Utrudnienia w kursowaniu linii L31",
+               "url": "https://www.wtp.waw.pl/utrudnienia/2026/07/21/utrudnienia-w-kursowaniu-linii-l31-17/"
+          },
+          {
+               "id": 1,
+               "affected": [
+                    "102"
+               ],
+               "title": "Utrudnienia w kursowaniu autobusów linii 102",
+               "url": "https://www.wtp.waw.pl/utrudnienia/2026/07/21/utrudnienia-w-kursowaniu-autobusow-linii-102-2/"
+          },
+          {
+               "id": 2,
+               "affected": [
+                    "742"
+               ],
+               "title": "Utrudnienia w kursowaniu autobusów linii 742",
+               "url": "https://www.wtp.waw.pl/utrudnienia/2026/07/20/utrudnienia-w-kursowaniu-autobusow-linii-742-6/"
+          },
+          {
+               "id": 3,
                "affected": [
                     "105",
                     "106",
@@ -92,41 +116,29 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/06/23/organizacja-komunikacji-miejskiej-w-okresie-letnich-wakacji-szkolnych-2026-r/"
           },
           {
-               "id": 1,
+               "id": 4,
                "affected": [
-                    "7",
-                    "26",
-                    "102",
-                    "111",
-                    "117",
-                    "118",
-                    "125",
-                    "127",
-                    "135",
-                    "138",
-                    "146",
-                    "147",
-                    "158",
-                    "162",
-                    "166",
-                    "202",
-                    "507",
-                    "509",
-                    "517",
-                    "521",
-                    "N14",
-                    "N22",
-                    "N24",
-                    "N64",
-                    "N72",
-                    "Z-9",
-                    "Z21"
+                    "4",
+                    "15",
+                    "16",
+                    "17",
+                    "18",
+                    "22",
+                    "27",
+                    "36",
+                    "75",
+                    "76",
+                    "77",
+                    "79",
+                    "T",
+                    "151",
+                    "520"
                ],
-               "title": "Koncerty na Stadionie PGE Narodowym",
-               "url": "https://www.wtp.waw.pl/zmiany/2026/07/15/koncerty-na-stadionie-pge-narodowym-6/"
+               "title": "Remont torowiska na skrzyżowaniu Al. Jerozolimskich z ul. Marszałkowską",
+               "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/remont-torowiska-na-skrzyzowaniu-al-nbspjerozolimskich-z-ul-nbspmarszalkowska/"
           },
           {
-               "id": 2,
+               "id": 5,
                "affected": [
                     "1",
                     "7",
@@ -156,7 +168,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/05/27/remont-torowiska-w-ciagu-al-jerozolimskie-most-poniatowskiego-al-poniatowskiego/"
           },
           {
-               "id": 3,
+               "id": 6,
                "affected": [
                     "107",
                     "108",
@@ -173,16 +185,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/07/15/przywrocenie-lokalizacji-przystanku-szwolezerow-01/"
           },
           {
-               "id": 4,
-               "affected": [
-                    "112",
-                    "N43"
-               ],
-               "title": "Remont przystanku PIRENEJSKA 01 i 02",
-               "url": "https://www.wtp.waw.pl/zmiany/2026/07/03/remont-przystanku-pirenejska-02/"
-          },
-          {
-               "id": 5,
+               "id": 7,
                "affected": [
                     "14",
                     "16",
@@ -209,7 +212,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/06/26/remont-torowiska-na-wezle-kino-femina/"
           },
           {
-               "id": 6,
+               "id": 8,
                "affected": [
                     "14",
                     "17",
@@ -220,32 +223,46 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/06/12/remont-torowiska-w-al-nbspniepodleglosci/"
           },
           {
-               "id": 7,
-               "affected": [
-                    "121",
-                    "157",
-                    "181",
-                    "185",
-                    "N46"
-               ],
-               "title": "Remont ul. Klaudyny",
-               "url": "https://www.wtp.waw.pl/zmiany/2026/07/16/remont-ul-klaudyny/"
-          },
-          {
-               "id": 8,
-               "affected": [
-                    "138"
-               ],
-               "title": "Czasowa zmiana lokalizacji przystanku DWORKOWA 04",
-               "url": "https://www.wtp.waw.pl/zmiany/2026/07/17/czasowa-zmiana-lokalizacji-przystanku-dworkowanbsp04/"
-          },
-          {
                "id": 9,
                "affected": [
-                    "704"
+                    "187",
+                    "194"
                ],
-               "title": "Czasowa zmiana trasy linii 704 w Hipolitowie",
-               "url": "https://www.wtp.waw.pl/zmiany/2026/07/16/czasowa-zmiana-trasy-linii-704-w-hipolitowie/"
+               "title": "Czasowa zmiana lokalizacji przystanku WŁADYSŁAWA HERMANA 01",
+               "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/czasowa-zmiana-lokalizacji-przystanku-wladyslawa-hermana-01/"
+          },
+          {
+               "id": 10,
+               "affected": [
+                    "162"
+               ],
+               "title": "Zgromadzenie publiczne przy ul. Ks. Ignacego Kłopotowskiego",
+               "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/zgromadzenie-publiczne-przy-ul-ks-ignacego-klopotowskiego/"
+          },
+          {
+               "id": 11,
+               "affected": [
+                    "211",
+                    "N63"
+               ],
+               "title": "Remont ulicy Ordonówny",
+               "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/remont-ulicy-ordonowny/"
+          },
+          {
+               "id": 12,
+               "affected": [
+                    "106",
+                    "107",
+                    "111",
+                    "116",
+                    "128",
+                    "175",
+                    "178",
+                    "180",
+                    "503"
+               ],
+               "title": "Centralne Obchody Święta Policji",
+               "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/centralne-obchody-swieta-policji/"
           }
      ]
 }
