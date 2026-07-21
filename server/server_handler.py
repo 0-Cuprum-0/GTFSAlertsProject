@@ -52,7 +52,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
 
 def run(server_class=HTTPServer, handler_class=MyHandler, port=8000):
-    server_address = ('', port)
+    server_address = ('0.0.0.0', port)
     httpd = server_class(server_address, handler_class)
     httpd.serve_forever()
 

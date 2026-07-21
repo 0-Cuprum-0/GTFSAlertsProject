@@ -12,7 +12,10 @@ from machine import Pin
 led = Pin(6, Pin.OUT)
 pin = Pin(7, Pin.IN, Pin.PULL_UP)
 print(led.value())
-    
+   
+
+
+
 rst = Pin(21, Pin.OUT)
 rst.value(0)
 time.sleep_ms(50)
@@ -24,7 +27,7 @@ oled_power.value(1)
 time.sleep_ms(100)
 
 i2c = I2C(0, scl=Pin(18), sda=Pin(17), freq=100000)
-
+print(i2c.scan())
 
 oled = SSD1306_I2C(128, 64, i2c, addr=0x3c)
 
