@@ -1,16 +1,8 @@
 {
-     "timestamp": 1784660682,
+     "timestamp": 1784666599,
      "alert_list": [
           {
                "id": 0,
-               "affected": [
-                    "L31"
-               ],
-               "title": "Utrudnienia w kursowaniu linii L31",
-               "url": "https://www.wtp.waw.pl/utrudnienia/2026/07/21/utrudnienia-w-kursowaniu-linii-l31-17/"
-          },
-          {
-               "id": 1,
                "affected": [
                     "102"
                ],
@@ -18,7 +10,7 @@
                "url": "https://www.wtp.waw.pl/utrudnienia/2026/07/21/utrudnienia-w-kursowaniu-autobusow-linii-102-2/"
           },
           {
-               "id": 2,
+               "id": 1,
                "affected": [
                     "742"
                ],
@@ -26,7 +18,7 @@
                "url": "https://www.wtp.waw.pl/utrudnienia/2026/07/20/utrudnienia-w-kursowaniu-autobusow-linii-742-6/"
           },
           {
-               "id": 3,
+               "id": 2,
                "affected": [
                     "105",
                     "106",
@@ -116,7 +108,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/06/23/organizacja-komunikacji-miejskiej-w-okresie-letnich-wakacji-szkolnych-2026-r/"
           },
           {
-               "id": 4,
+               "id": 3,
                "affected": [
                     "4",
                     "15",
@@ -138,7 +130,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/remont-torowiska-na-skrzyzowaniu-al-nbspjerozolimskich-z-ul-nbspmarszalkowska/"
           },
           {
-               "id": 5,
+               "id": 4,
                "affected": [
                     "1",
                     "7",
@@ -168,7 +160,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/05/27/remont-torowiska-w-ciagu-al-jerozolimskie-most-poniatowskiego-al-poniatowskiego/"
           },
           {
-               "id": 6,
+               "id": 5,
                "affected": [
                     "107",
                     "108",
@@ -185,7 +177,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/07/15/przywrocenie-lokalizacji-przystanku-szwolezerow-01/"
           },
           {
-               "id": 7,
+               "id": 6,
                "affected": [
                     "14",
                     "16",
@@ -212,7 +204,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/06/26/remont-torowiska-na-wezle-kino-femina/"
           },
           {
-               "id": 8,
+               "id": 7,
                "affected": [
                     "14",
                     "17",
@@ -223,7 +215,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/06/12/remont-torowiska-w-al-nbspniepodleglosci/"
           },
           {
-               "id": 9,
+               "id": 8,
                "affected": [
                     "187",
                     "194"
@@ -232,7 +224,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/czasowa-zmiana-lokalizacji-przystanku-wladyslawa-hermana-01/"
           },
           {
-               "id": 10,
+               "id": 9,
                "affected": [
                     "162"
                ],
@@ -240,7 +232,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/zgromadzenie-publiczne-przy-ul-ks-ignacego-klopotowskiego/"
           },
           {
-               "id": 11,
+               "id": 10,
                "affected": [
                     "211",
                     "N63"
@@ -249,7 +241,7 @@
                "url": "https://www.wtp.waw.pl/zmiany/2026/07/21/remont-ulicy-ordonowny/"
           },
           {
-               "id": 12,
+               "id": 11,
                "affected": [
                     "106",
                     "107",

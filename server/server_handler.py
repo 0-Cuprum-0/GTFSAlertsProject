@@ -2,13 +2,12 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 
 class MyHandler(BaseHTTPRequestHandler):
-    with open("../json/data.json", "r") as file:
 
-        json_obj = json.load(file)
 
     def get_timestamp(self):
 
-        return self.json_obj["timestamp"]
+        with open("/home/cuprum/GTFSAlertsProject/json/data.json" , "r") as file:
+            return json.load(file)["timestamp"]
 
     def do_GET(self):
         if self.path == "/hello_there":
@@ -25,9 +24,10 @@ class MyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(f"{ts}".encode())
         elif self.path == "/data":
+            with open("/home/cuprum/GTFSAlertsProject/json/data.json" , "r") as file:
+                body= json.load(file)
 
-
-            response_body = json.dumps(self.json_obj).encode("utf-8")
+            response_body = json.dumps(body).encode("utf-8")
 
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
